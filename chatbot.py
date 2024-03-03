@@ -1,4 +1,4 @@
-from slackclient import SlackClient
+from slack_sdk import SlackClient
 from configurations import SLACK_TOKEN, SLACK_CHANNEL
 
 slack_notifier = SlackClient(SLACK_TOKEN)
